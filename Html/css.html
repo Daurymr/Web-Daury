@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="../Css/style.css">
+</head>
+
+<body>
+    <header>
+        <figure id="Logo-HTML" style="text-align: left;">
+            <a href="../index.html"><img src="../images/CSS.png" alt="CSS-Logo" width="50"></a>
+        </figure>
+
+    <nav id="links">
+        <a href="../index.html">Inicio</a>
+        <a href="../Html/Etiquetas.html">Etiquetas</a>
+        <a href="../Html/Atributos.html">Atributos</a>
+        <a href="../Html/css.html">CSS</a>
+        <a href="../Html/Javascript.html">JavaScript</a>
+    </nav>
+    <nav style="text-align: right;">
+        <a href="../Html/Contacto.html">Contacto</a>
+        <a href="../Html/Acercade.html">Acerca de</a>
+    </nav>
+    </header>
+    
+    <br>
+
+    <div id="Contenido">
+        <h1>Contenido</h1>
+        <ol>
+            <li><a href="#Que_es?">Que es CSS?</a></li>
+            <li><a href="#Como_utilizar?">Como utilizar CSS con HTML?</a></li>
+            <li><a href="#CSS_linea">CSS en linea</a></li>
+            <li><a href="#CSS_interno">CSS Interno.</a></li>
+            <li><a href="#CSS_externo">CSS Externo</a></li>
+        </ol>
+
+    </div>
+    <hr>
+    <br>
+
+    <div id="Que_es?">
+        <h2>Que es CSS?</h2>
+        <p>CSS (Cascading Style Sheets) es un lenguaje de programación que permite controlar el diseño y presentación de las páginas web. Se utiliza para dar estilo a los elementos HTML, como el color, la fuente, la posición, las animaciones y los efectos visuales. El CSS funciona junto con el HTML, que se encarga del contenido básico de los sitios. El CSS separa el contenido del diseño, lo que facilita la gestión del aspecto visual de las páginas web.</p>
+        <p>Algunas caracteristicas son:</p>
+        <ul>
+            <li>Se basa en reglas, donde cada regla se abre con un selector y se cierra con un conjunto de llaves.</li>
+            <li>Las características se aplican de arriba a abajo mediante reglas que poseen un esquema prioritario. </li>
+            <li>Permite agrupar reglas que aplican a diferentes etiquetas en una sola regla con un selector múltiple. </li>
+            <li>Permite utilizar selectores de etiqueta, clase, ID, combinadores y pseudo-clases. </li>
+        </ul>
+    </div>
+    <br>
+
+    <div id="Como_utilizar?">
+        <h2>Como utilizar CSS con HTML?</h2>
+        <p>CSS permite separar el contenido HTML de su presentación visual. Es decir, te permite mantener el código HTML limpio y estructurado, mientras que el estilo se define en un archivo CSS separado. Este orden mejora la legibilidad del código y facilita el mantenimiento, así como la actualización de los estilos.</p>
+        <p>Para incluir CSS en tu documento HTML se puede incluir una regla de enlace en el elemento HEAD del documento. Tambien se puede utilizar el atributo de estilo (style) en el elemento HTML para especificar los estilos de esa clase o contenedor.</p>
+
+        <figure id="Uso_Eje">
+            <img src="../images/style_ej1.png" alt="Ejemplo_1" width="500">
+            <figcaption>Este es un ejemplo de utilizar CSS</figcaption>
+
+            <img src="../images/style_ej2.png" alt="Ejemplo_2" width="500">
+            <figcaption>Este es otro ejemplo, incluyendo el codigo css en el head.</figcaption>
+        </figure>
+
+    </div>
+    <br>
+
+    <div id="CSS_linea">
+        <h2>CSS en linea</h2>
+        <p>El CSS en línea, o inline styles, es una técnica para definir un elemento único en un documento HTML con hojas de estilo insertadas. Se trata de una forma de añadir estilos en CSS que consiste en escribir el CSS directamente en la etiqueta HTML a través del atributo style.</p>
+        <figure id="CSS_Linea">
+            <img src="../images/css_linea.png" alt="CSS_en_linea" width="600">
+        </figure>
+
+    </div>
+    <br>
+
+    <div id="CSS_interno">
+        <h2>CSS interno.</h2>
+        <p>El CSS interno es una forma de agregar estilos a una página web HTML, incrustando el código CSS en el mismo documento. El CSS interno se diferencia de externo, de manera que se introduce un atributo (style) para darle estilo a la pagina directamente desde el documento HTML.</p>
+        <figure id="Css_interno_ejemplo">
+            <img src="../images/css_interno.png" alt="CSS_Interno_Ejemplo" width="500">
+        </figure>
+
+    </div>
+    <br>
+
+    <div id="CSS_externo">
+        <h2>CSS externo</h2>
+        <p>El CSS externo es un archivo independiente que se vincula a una página web para definir su estilo:</p>
+        <ul>
+            <li>Se crea con un editor de texto, como Notepad++</li>
+            <li>Se enlaza a la pagina web mediante una etiqueta (link) en la seccion de encabezado del documento HTML.</li>
+            <li>Permite que varias paginas web utilicen el mismo archivo CSS.</li>
+        </ul>
+        <p>El CSS externo es un método eficiente para estilizar sitios web grandes, ya que permite cambiar el estilo de todo el sitio con un solo archivo. Además, al separar el código CSS de los archivos HTML, estos últimos tienen una estructura más limpia y un tamaño menor.</p>
+        <figure id="CSS_externo_ej">
+            <img src="../images/css_externo.png" alt="CSS_externo_ejemplo" width="500">
+        </figure>
+    </div>
+    <br>
+
+    <footer>
+        <h3>Contactanos</h3>
+        <p>Numero: 809-428-7526</p>
+        <p>Correo: contacto.html@gmail.com</p>
+        <h3 style="text-align: right;">Nuestras Redes:</h3>
+        <br>
+
+        <figure id="Redes">
+            <img src="../images/Facebook_icon.png" alt="Facebook" height="30" width="30">
+            <img src="../images/Instagram_logo_2022.svg.png" alt="Instagram" height="30" width="30">
+            <img src="../images/x.png" alt="X" height="30" width="30">
+            <img src="../images/WhatsApp.png" alt="Whatsapp" height="30" width="30">
+        </figure>
+    </footer>
+
+</body>
+</html>

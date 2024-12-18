@@ -1,0 +1,33 @@
+footer{
+    padding: 15px;
+    border: 2px rgb(0, 0, 0);
+    border-radius: 8px;
+    background-color:darkgrey;
+    border-style: solid;
+}
+
+header{
+    padding: 30px;
+    border-radius: 8px;
+    background-color:white;
+    border-style: solid;
+}
+
+div{
+    padding: 30px;
+    border-radius: 8px;
+    background-color:white;
+    border-style: solid;
+}
+
+figure{
+    text-align: right;
+}
+
+
+section{
+    padding: 30px;
+    border-radius: 8px;
+    background-color:rgb(255, 255, 255);
+    border-style: solid;
+}

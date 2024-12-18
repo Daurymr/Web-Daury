@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos</title>
+    <link rel="stylesheet" href="../Css/style.css">
+</head>
+
+<body>
+    <header>
+        <figure style="text-align: left;">
+           <a href="../index.html"><img src="../images/html.png" alt="HTML-Logo" width="50" height="50"></a>
+        </figure>
+
+        <nav id="links">
+            <a href="../index.html">Inicio</a>
+            <a href="../Html/Etiquetas.html">Etiquetas</a>
+            <a href="../Html/Atributos.html">Atributos</a>
+            <a href="../Html/css.html">CSS</a>
+            <a href="../Html/Javascript.html">JavaScript</a>
+        </nav>
+        <nav style="text-align: right;">
+            <a href="../Html/Contacto.html">Contacto</a>
+            <a href="../Html/Acercade.html">Acerca de</a>
+        </nav>
+    </header>
+    <br>
+
+    <div id="Contenido">
+        <H1>Contenido</H1>
+        <ol>
+            <li><a href="#Atributos_Globales">Atributos Globales</a></li>
+                <ul>
+                    <li><a href="#1.1">1.1</a>Class</li>
+                    <li><a href="#1.2">1.2</a>ID</li>
+                    <li><a href="#1.3">1.3</a>Title</li>
+                </ul>
+                <li><a href="#Atributos_form">Atributos form</a></li>
+                <ul>
+                    <li><a href="#2.1">2.1</a>action</li>
+                    <li><a href="#2.2">2.2</a>method</li>
+                    <li><a href="#2.3">2.3</a>name</li>
+                </ul>
+            <li><a href="#Atributos_input">Atributos input</a></li>
+        </ol>
+    </div>
+    <br>
+
+    <hr>
+    <div id="Atributos_Globales">
+        <h2>Atributos Globales</h2>
+        <p>Los atributos globales son atributos comunes a todos los elementos HTML; se pueden usar en todos los elementos, aunque es posible que no tengan ningún efecto en algunos elementos. Los atributos globales se pueden especificar en todos los elementos HTML, incluso aquellos no especificados en el estándar.</p>
+
+        <p>Los atributos globales se utilizan para introducir parámetros adicionales a todos los elementos HTML. Por lo tanto, son atributos que permiten modificar características específicas, como de diseño o funcionalidad, de cualquier elemento HTML, ya sea un párrafo, un encabezado, un enlace o una imagen.</p>
+        <br>
+
+        <div id="1.1">
+            <h3>Class</h3>
+            <p>El atributo class en HTML es una lista de clases que identifica un elemento HTML. Define el nombre de una clase o una lista de clases para aplicar estilos en cascada (CSS). El atributo class en HTML es una lista de clases que identifica un elemento HTML.</p>
+            <figure>
+                <img src="../images/class_ej.png" alt="Class_ejemplo">
+            </figure>
+
+        </div>
+        <br>
+
+        <div id="1.2">
+            <h3>ID</h3>
+            <p>El atributo id en HTML es un identificador único que se utiliza para identificar un elemento en un documento HTML.</p>
+            <p>Este atributo se puede utilizar para:</p>
+            <ul>
+                <li>Vincular el elemnto en scritps.</li>
+                <li>Vicular el elemento en hojas de estilos (CSS).</li>
+                <li>Dar formato a la vista de operador con CSS.</li>
+                <li>Manipular el modelo de objeto de documento con codigo JavaScript y DHTML.</li>
+            </ul>
+            <br>
+            <figure>
+                <img src="../images/id_ejemplo.png" alt="ID_ejemplo_" width="300" height="300">
+            </figure>
+        </div>
+        <br>
+
+        <div id="1.3">
+            <h3>Title</h3>
+            <p>El atributo title en HTML es un bloque de información adicional que se puede adjuntar a un elemento, como un enlace o una imagen, para proporcionar información adicional al usuario. Esta información se muestra como un texto de información sobre herramientas cuando el mouse se mueve sobre el elemento. El atributo title se puede usar en cualquier elemento HTML.</p>
+            <p>Algunos de sus usos típicos son: </p>
+            <ul>
+                <li>En un vínculo, para mostrar el título o la descripción del documento vinculado.</li>
+                <li>En un elemento mediático, como una imagen, para mostrar una descripción o créditos asociados.</li>
+                <li>En un párrafo, para mostrar una nota de pié de página o comentario.</li>
+                <li>En una cita, para mostrar información sobre el autor y otros datos.</li>
+            </ul>
+            <figure>
+                <img src="../images/title_eje.png" alt="Title_ejemplo" width="400">
+            </figure>
+        </div>
+        <br>
+    </div>
+    <br>
+
+    <div id="Atributos_form">
+        <h2>Atributos form</h2>
+        <p>Se conoce como formulario a los mecanismos para enviar información por parte del usuario, a través de unos campos visuales de forma sencilla e intuitiva, que determinan la naturaleza del tipo de información que se va a enviar y como hacerla llegar a otro extremo donde se procesará esa información. El elemento "form" representa una sección de un documento que contiene controles interactivos para que el usuario envíe información a un servidor web. 
+        </p>
+        <div id="2.1">
+            <h3>Action</h3>
+            <p>El atributo action en HTML se utiliza para indicar la dirección URL a la que se envían los datos de un formulario cuando se pulsa el botón de envío. Normalmente, los datos del formulario se envían a un archivo en el servidor cuando el usuario hace clic en el botón de envío.</p>
+            <figure>
+                <img src="../images/action.png" alt="Atributo_action">
+            </figure>
+        </div>
+        <br>
+
+        <div id="2.2">
+            <h3>Method</h3>
+            <p>El atributo method se utiliza en HTML para definir cómo se envían los datos de un formulario al servidor web.</p>
+            <ul>
+                <li><b>Método GET: </b>Los valores enviados se agregan a la dirección indicada en el atributo action.</li>
+                <li><b>Método POST: </b>Los valores se envian de forma separada.</li>
+            </ul>
+        </div>
+        <br>
+
+        <div id="2.3">
+            <h3>Name</h3>
+            <p>El atributo name en HTML se utiliza para identificar y organizar datos, y para referenciar elementos en JavaScript. Es compatible con varios elementos HTML, como los controles de formulario input, select, textarea y button.</p>
+            <p>Algunas de las funciones del atributo name son:</p>
+            <ul>
+                <li>Identificar elementos y sus valores al enviar los datos de un formulario</li>
+                <li>Identificar un dato de un formulario en un servidor o base de datos</li>
+                <li>Dar un grupo específico a un conjunto de inputs de tipo checkbox o radio</li>
+                <li>Manejar la información del formulario desde JavaScript o desde el backend haciendo referencia al nombre </li>
+            </ul>
+        </div>
+        <br>
+
+        <figure>
+            <img src="../images/form_eje.png" alt="Ejemplo_form" width="500">
+        </figure>
+
+    </div>
+
+    <br>
+
+    <div id="Atributos_input">
+        <h2>Atributos input</h2>
+        <p>El atributo input en HTML se utiliza para crear campos de entrada en formularios, que permiten a los usuarios proporcionar y enviar información a una página web. Los campos de entrada son fundamentales para la interacción entre el usuario y el servidor, y para recopilar datos para procesos como registros, logins y otras transacciones.</p>
+        <p>El atributo input se utiliza de la siguiente manera:</p>
+        <ul>
+            <li><b>Input de texto: </b>Se utiliza para recibir pequeños strings de caracteres, como nombres, apellidos, fechas de nacimiento, etc. Es el campo de entrada de datos por defecto si no se indica ningún atributo type.</li>
+            <li><b>Área de texto: </b>Se utiliza para inputs de texto largos, ya que permite múltiples líneas.</li>
+            <li><b>Atributo submit o image: </b>Especifica el método HTTP que el navegador usará para enviar el formulario.</li>
+        </ul>
+        <figure>
+            <img src="../images/input.png" alt="Atributo_input" width="400" height="150">
+        </figure>
+
+    </div>
+    <br>
+    
+    <footer>
+        <h2>Contactanos</h2>
+        <p>Numero: 809-428-7526</p>
+        <p>Correo: contacto.html@gmail.com</p>
+        <h3 style="text-align: right;">Nuestras Redes:</h3>
+        <br>
+
+        <figure id="Redes">
+            <img src="../images/Facebook_icon.png" alt="Facebook" height="30" width="30">
+            <img src="../images/Instagram_logo_2022.svg.png" alt="Instagram" height="30" width="30">
+            <img src="../images/x.png" alt="X" height="30" width="30">
+            <img src="../images/WhatsApp.png" alt="Whatsapp" height="30" width="30">
+        </figure>
+    </footer>
+
+    
+</body>
+</html>
